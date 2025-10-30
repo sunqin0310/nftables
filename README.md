@@ -18,9 +18,9 @@ chmod +x nftables.sh
 sudo bash nftables.sh
 
 ### 方法2：单行命令
-bash
+```bash
 curl -fsSL -o nftables.sh https://raw.githubusercontent.com/sunqin0310/nftables/refs/heads/main/nftables.sh && chmod +x nftables.sh && sudo bash nftables.sh
 
 ### 方法3：直接执行（不保存文件）
-bash
+```bash
 curl -fsSL https://raw.githubusercontent.com/sunqin0310/nftables/refs/heads/main/nftables.sh | sudo bash
